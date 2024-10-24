@@ -5,7 +5,7 @@ void average(int arr[], int panjangArr) {
 
     for(int i = 0; i < panjangArr; i++) hasil += arr[i];
 
-    hasil /= 2;
+    hasil /= panjangArr;
 
     printf("Rata-rata: %f", hasil);
 }
