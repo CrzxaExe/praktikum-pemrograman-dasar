@@ -9,7 +9,7 @@ def handleInput():
             hasil += int(input(f"Masukan angka ke {i+1}: "))
             i += 1
         except ValueError:
-            print(f"Hasil dari rata-rata {i} bilangan tersebut adalah {hasil}")
+            print(f"Hasil dari rata-rata {i} bilangan tersebut adalah {hasil/i}")
             break
     
 handleInput()
