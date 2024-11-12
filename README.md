@@ -1,3 +1,0 @@
-# praktikum-pemrograman-dasar
-
-Praktikum
